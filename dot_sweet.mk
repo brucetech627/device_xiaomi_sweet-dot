@@ -7,7 +7,7 @@
 # Inherit from sweet device
 $(call inherit-product, device/xiaomi/sweet/device.mk)
 
-# Inherit some common Lineage stuff.
+# Inherit some common DotOS stuff.
 $(call inherit-product, vendor/dot/config/common.mk)
 
 # Device identifier. This must come after all inclusions.
